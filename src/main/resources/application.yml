@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/egoing?serverTimezone=GMT%2B8&characterEncoding=utf8
+    username: root
+    password: Ff990531
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  #  mvc:
+  #    view:
+  #      prefix: /
+  #      suffix: .jsp
+  mvc:
+    static-path-pattern: /static/**
+    view:
+      prefix: /templates/
+#  application:
+#    name: egoing
+#server:
+#  servlet:
+#    context-path: /springboot-shiro
+logging:
+  level:
+    org.fjl.user.org.fjl.user.mapper: debug
